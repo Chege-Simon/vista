@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="vista-app"></div>
+<div id="vista-dashboard"></div>
 @endsection
 
 @push('scripts')

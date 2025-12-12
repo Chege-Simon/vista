@@ -1,0 +1,11 @@
+{
+  "resources/js/dashboard/app.js": {
+    "file": "assets/app-DeQ76Vti.js",
+    "name": "app",
+    "src": "resources/js/dashboard/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-B8KITzmT.css"
+    ]
+  }
+}
