@@ -1,0 +1,19 @@
+# PHP / Laravel
+/vendor
+/node_modules
+/.env
+.phpunit.result.cache
+/storage/*.key
+
+# Frontend build
+/public/js/*
+/public/css/*
+/dist
+/resources/js/vendor/vista/node_modules
+/resources/js/vendor/vista/dist
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea
+.vscode
