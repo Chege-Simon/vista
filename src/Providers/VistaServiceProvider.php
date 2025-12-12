@@ -35,7 +35,7 @@ class VistaServiceProvider extends ServiceProvider
 
         // Allow publishing views into the host app
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/vista'),
+            __DIR__.'/../../resources/views' => resource_path('views/vendor/vista'),
         ], 'vista-views');
     }
 
