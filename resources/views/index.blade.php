@@ -6,5 +6,5 @@
 @endsection
 
 @push('scripts')
-@vite('resources/js/dashboard/App.vue')
+@vite('resources/js/dashboard/app.js')
 @endpush
