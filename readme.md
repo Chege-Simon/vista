@@ -30,6 +30,7 @@ Vista ships with configuration, views, and compiled dashboard assets. Publish th
 php artisan vendor:publish --tag=vista-config
 php artisan vendor:publish --tag=vista-views
 php artisan vendor:publish --tag=vista-assets
+
 ```
 
 ## ⚙️ Configuration
