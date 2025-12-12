@@ -1,0 +1,32 @@
+{
+  "name": "chege-simon/vista",
+  "description": "Horizon-style scheduler monitor for Laravel",
+  "type": "laravel-package",
+  "autoload": {
+    "psr-4": {
+      "Vista\\": "src/"
+    }
+  },    
+  "authors": [
+    {
+      "name": "Chege Simon",
+      "email": "petekim211@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vista\\Providers\\VistaServiceProvider"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+        "Vista\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.5",
+    "orchestra/testbench": "^10.8"
+  }
+}
