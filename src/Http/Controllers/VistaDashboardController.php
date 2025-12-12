@@ -23,7 +23,7 @@ class VistaDashboardController extends Controller
     public function index()
     {
         // Return the Blade view that mounts the Vue SPA
-        return view('vista.index');
+        return view('vista::index');
     }
 
     /**
